@@ -1,0 +1,29 @@
+.hero {
+    background-image: url(../../dist/images/tipulacaoHero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 78px);
+
+    @media (min-width: 1025px) {
+        background-image: url(../../dist/images/tipulacaoHeroLg.png);
+    }
+
+    &__container {
+        max-width: 1024px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    &__content {
+        padding: 0 72px;
+        max-width: 560px;
+        width: 100%;
+        text-align: center;
+
+        h2 {
+            padding-bottom: 10px;
+        }
+    }
+}

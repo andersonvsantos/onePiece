@@ -1,0 +1,44 @@
+@use 'header';
+@use 'hero';
+@use 'grups';
+@use 'crew';
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #18171E;
+
+    ul {
+        list-style: none;
+    }
+}
+
+.title--big {
+    font-size: 39px;
+}
+
+.title {
+    font-size: 26px;
+}
+
+.title--small {
+    font-size: 24px;
+}
+
+.text--big {
+    font-size: 18px;
+}
+
+.text {
+    font-size: 17.5px;
+}
+
+.text--small {
+    font-size: 15px;
+}

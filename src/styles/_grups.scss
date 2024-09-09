@@ -1,0 +1,36 @@
+.grups {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+    h2 {
+        text-align: center;
+        padding: 52px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 72px;
+
+
+        &__item {
+            max-width: 30%;
+            width: 100%;
+            position: relative;
+            text-align: center;
+            display: flex;
+
+            img {
+                width: 100%;
+            }
+
+            span {
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                padding-bottom: 1.5em;
+            }
+        }
+    }
+}
