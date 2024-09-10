@@ -2,6 +2,9 @@
 @use 'hero';
 @use 'grups';
 @use 'crew';
+@use 'wallpapers';
+@use 'production';
+@use 'footer';
 
 * {
     margin: 0;
@@ -13,10 +16,14 @@
 
 body {
     background-color: #18171E;
+}
 
-    ul {
-        list-style: none;
-    }
+ul {
+    list-style: none;
+}
+
+h2, h3{
+    text-align: center;
 }
 
 .title--big {

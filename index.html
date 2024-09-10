@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="./dist/styles/main.css">
 </head>
 <body>
@@ -108,5 +110,80 @@
             </div>
         </div>
     </section>
+    <section class="wallpapers">
+        <h2 class="title--big">Wallpapers</h2>
+        <div class="wallpapers__carousel" id="carousel-imagens">
+            <img src="./dist/images/wallpapers/wallpaper1.png" alt="Zoro">
+            <img src="./dist/images/wallpapers/wallpaper2.png" alt="">
+            <img src="./dist/images/wallpapers/wallpaper3.png" alt="">
+            <img src="./dist/images/wallpapers/wallpaper4.png" alt="">
+            <img src="./dist/images/wallpapers/wallpaper5.png" alt="">
+            <img src="./dist/images/wallpapers/wallpaper6.png" alt="">
+            <img src="./dist/images/wallpapers/wallpaper7.png" alt="">
+            <img src="./dist/images/wallpapers/wallpaper8.png" alt="">
+            <img src="./dist/images/wallpapers/wallpaper9.png" alt="">
+            <img src="./dist/images/wallpapers/wallpaper10.png" alt="">
+        </div>
+    </section>
+    <section class="production">
+        <h2 class="title--big">Produção</h2>
+        <div class="production__content">
+            <div class="production__content__image">
+                <img src="./dist/images/producao/oda.png" alt="Eiichiro Oda">
+            </div>
+            <div class="production__content__texts">
+                <h3 class="title--small">Eiichiro Oda</h3>
+                <p class="text--small">
+                    Eiichiro Oda (1 de janeiro de 1975) é um mangaká, sendo mais conhecido como criador da série One Piece (1997–presente). One Piece é o mangá mais vendido de todos os tempos com 500 milhões de cópias vendidas em todo o mundo, rendendo a Oda o título de um dos autores de ficção mais vendidos. A popularidade da obra resultou em Oda ser nomeado como um dos maiores artistas de todos os tempos que mudou a história dos mangás.
+                </p>
+            </div>
+        </div>
+        <div class="production__content">
+            <div class="production__content__image">
+                <img src="./dist/images/producao/toei.png" alt="Toei Animation">
+            </div>
+            <div class="production__content__texts">
+                <h3 class="title--small">Toei Animation</h3>
+                <p class="text--small">
+                    A Toei Animation Co., é um estúdio de animação japonês de propriedade da Toei Company. Hayao Miyazaki, Isao Takahata e Yoichi Kotabe já trabalharam na Toei Animation. O estúdio é responsável por produzir animes como Sally the Witch (1966), GeGeGe no Kitarō (1968), Mazinger Z (1972), Cutie Honey (1973), Galaxy Express 999 (1979), Dr. Slump (1980), Hokuto no Ken (1984), Dragon Ball (1986/1989), Os Cavaleiros do Zodíaco (1986), Slam Dunk (1990), Sailor Moon (1992), Ghost Sweeper Mikami (1992), Jigoku Sensei Nube, Gulliver Boy, Digimon (1999), One Piece (1999), Toriko, World Trigger, Transformers (entre 1984–1990, incluindo várias produções exclusivas japonesas) e a franquia Pretty Cure (2004).
+                </p>
+            </div>
+        </div>
+        <div class="production__platforms">
+            <img src="./dist/images/producao/Rayleigh.png" alt="Rayleigh">
+            <div class="production__platforms__container">
+                <h3>Onde Assistir</h3>
+                <ul class="production__platforms__list">
+                    <li class="production__platforms__list__item">
+                        <a href="https://www.netflix.com/br/title/80107103">
+                            <img src="./dist/images/ondeAssistir/netflix.png" alt="Netflix">
+                        </a>
+                    </li>
+                    <li class="production__platforms__list__item">
+                        <a href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece">
+                            <img src="./dist/images/ondeAssistir/crunchyroll.png" alt="Crunchyroll">
+                        </a>
+                    </li>
+                    <li class="production__platforms__list__item">
+                        <a href="https://www.primevideo.com/-/pt/detail/One-Piece/0GS495WVHMSMLRQADMHV39ZD3Z">
+                            <img src="./dist/images/ondeAssistir/primeVideo.png" alt="primeVideo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="text--small">
+                &copy; Desenvolvido por Anderson V Santos - 2024.
+            </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./dist/scripts/main.js"></script>
 </body>
 </html>

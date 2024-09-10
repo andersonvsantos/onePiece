@@ -1,0 +1,97 @@
+.production {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 72px;
+    margin-bottom: 52px;
+
+    h2 {
+        margin-bottom: 72px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15em;
+
+        &:nth-child(3) &__image{
+            order: 1;
+        }
+
+        &__image {
+            width: 30%;
+            
+            img {
+                border-radius: 50%;
+                width: 100%;
+            }
+        }
+
+        &__texts {
+            width: 65%;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 2em;
+            text-align: center;
+
+            h3 {
+                padding-bottom: .5em;
+            }
+        }
+    }
+
+    &__platforms {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        & > img {
+            width: 350px;
+            position: absolute;
+            bottom: 150px;
+        }
+
+        &__container {
+            width: 100%;
+            padding: 1.5em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.2);
+            border: 3px solid #FFF;
+            border-radius: 5px;
+
+            h3 {
+                padding-bottom: 2em;
+            }
+        }
+        
+        &__list {
+            width: 50%;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+
+            &__item {
+                a {
+                    margin: 0;
+                    padding: 0;
+                    
+                    img {
+                        width: 75px;
+                        border-radius: 15px;
+                        transition: .5s ease;
+                    }
+                }
+
+                a:hover img{
+                    transform: scale(1.2);
+                    box-shadow: 0px 0px 75px 10px rgba(255, 255, 255, 0.089);
+                }
+            }
+        }
+    }
+}
+
