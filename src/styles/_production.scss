@@ -13,14 +13,23 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 15em;
+        margin-bottom: 3em;
+
+        @media (max-width: 890px) {
+            flex-direction: column;
+        }
 
         &:nth-child(3) &__image{
             order: 1;
+
+            @media (max-width: 890px) {
+                order: 0;
+            }
         }
 
         &__image {
             width: 30%;
+            margin: 2em;
             
             img {
                 border-radius: 50%;
@@ -46,6 +55,7 @@
         flex-direction: column;
         align-items: center;
         position: relative;
+        margin-top: 200px;
 
         & > img {
             width: 350px;
