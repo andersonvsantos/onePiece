@@ -12,6 +12,10 @@
         align-items: center;
         max-width: 1024px;
         margin: 0 auto;
+
+        @media (max-width: 890px) {
+            padding: 0 10%;
+        }
     }
 
     h1 {
@@ -27,6 +31,10 @@
 
         @media (max-width: 890px) {
             width: 72%;
+        }
+
+        @media (max-width: 650px) {
+            display: none;
         }
 
         &__list  {

@@ -5,6 +5,11 @@
     padding: 0 72px;
     margin-bottom: 52px;
 
+    @media (max-width: 890px) {
+        padding: 0 10%;
+    }
+
+
     h2 {
         margin-bottom: 72px;
     }
@@ -44,6 +49,10 @@
             padding: 2em;
             text-align: center;
 
+            @media (max-width: 890px) {
+                width: 100%;
+            }
+
             h3 {
                 padding-bottom: .5em;
             }
@@ -60,7 +69,11 @@
         & > img {
             width: 350px;
             position: absolute;
-            bottom: 150px;
+            bottom: 75%;
+
+            @media (max-width: 620px) {
+                width: 80%;
+            }
         }
 
         &__container {
@@ -83,6 +96,7 @@
             padding: 0;
             display: flex;
             justify-content: space-between;
+            gap: 10px;
 
             &__item {
                 a {
@@ -91,8 +105,12 @@
                     
                     img {
                         width: 75px;
-                        border-radius: 15px;
+                        border-radius: 7.5%;
                         transition: .5s ease;
+
+                        @media (max-width: 760px) {
+                            width: 100%;
+                        }
                     }
                 }
 

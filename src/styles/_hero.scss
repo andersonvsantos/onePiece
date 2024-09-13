@@ -8,12 +8,22 @@
         background-image: url(../../dist/images/tipulacaoHeroLg.png);
     }
 
+    @media (max-width: 890px) {
+        background-image: url(../../dist/images/tripulacaoHeroMobile.png);
+        background-size: contain;
+        height: 100%;
+    }
+
     &__container {
         max-width: 1024px;
         height: 100%;
         margin: 0 auto;
         display: flex;
         align-items: center;
+        
+        @media (max-width: 890px) {
+            margin: -50px auto;
+        }
     }
 
     &__content {
@@ -21,6 +31,13 @@
         max-width: 560px;
         width: 100%;
         text-align: center;
+
+        @media (max-width: 890px) {
+            max-width: 100%;
+            margin-top: 60%;
+            margin-bottom: 2em;
+            padding: 0 10%;
+        }
 
         h2 {
             padding-bottom: 10px;

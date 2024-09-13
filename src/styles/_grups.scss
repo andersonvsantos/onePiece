@@ -12,13 +12,23 @@
         justify-content: space-between;
         padding: 0 72px;
 
+        @media (max-width: 890px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
         &__item {
+            margin: 1em;
             max-width: 30%;
+            min-width: 200px;
             width: 100%;
             position: relative;
             text-align: center;
             display: flex;
+
+            @media (max-width: 530px) {
+                max-width: 100%;
+            }
 
             img {
                 width: 100%;

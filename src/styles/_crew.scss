@@ -4,15 +4,25 @@
     margin: 0 auto;
     padding: 0 72px;
 
+    @media (max-width: 890px) {
+        padding: 0 2%;
+    }
+
     h2 {
         padding: 52px 0;
     }
 
     &__list {
+        padding: 0;
         display: flex;
         justify-content: space-between;
         margin-bottom: 52px;
         width: 100%;
+
+        @media (max-width: 890px) {
+            flex-wrap: wrap;
+            min-width: 350px;
+        }
 
         &__item {
             width: 70px;
@@ -27,7 +37,13 @@
             @media (max-width: 890px) {
                 min-width: 55px;
                 min-height: 55px;
-                flex-wrap: wrap;
+
+                margin: .5em 0;
+            }
+
+            @media (max-width: 650px) {
+                min-width: 35px;
+                min-height: 35px;
             }
 
             &__button {
@@ -84,8 +100,6 @@
         align-items: center;
         margin-bottom: 52px;
 
-        
-
         &--is-active {
             display: flex;
 
@@ -100,6 +114,7 @@
             text-align: center;
 
             @media (max-width: 890px) {
+                padding: 10%;
                 max-width: 100%;
                 order: 1;
             }
